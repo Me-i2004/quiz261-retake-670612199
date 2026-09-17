@@ -29,7 +29,7 @@ app.get("/me", (req: Request, res: Response) => {
   });
 });
 
-app.get("/myInfo",(req: Request,res: Response) => {
+app.get("/student",(req: Request,res: Response) => {
   res.status(200).json({
     succes: true,
     message: "Student Information",
